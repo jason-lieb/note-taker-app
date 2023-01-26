@@ -1,0 +1,14 @@
+{
+  "name": "Note Taker App",
+  "version": "1.0.0",
+  "description": "A simple note app using Express to store notes to JSON and deployed to Heroku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MTI",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
