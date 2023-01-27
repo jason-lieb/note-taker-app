@@ -1,14 +1,19 @@
 {
-  "name": "Note Taker App",
+  "name": "note-taker-app",
   "version": "1.0.0",
   "description": "A simple note app using Express to store notes to JSON and deployed to Heroku",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
-  "author": "",
-  "license": "MTI",
+  "author": "Jason Lieb",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
