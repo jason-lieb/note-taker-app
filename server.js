@@ -70,10 +70,3 @@ app.delete('/api/notes/:id', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Listening on Port ${PORT}`);
 })
-
-// reload page / get notes again when saved
-// error from fetch requests in browser console
-
-// deploy to heroku
-// add screenshot and deployed link to readme
-// submit github repo and deployed link
