@@ -7,6 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5500;
 
 app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.get('/', (req, res) => {
@@ -38,7 +39,7 @@ app.post('/api/notes', (req, res) => {
         if (err) {
           throw err;
         } else {
-          console.log("Note Created Successfully")
+          res.json("Note Created Successfully");
         }
       });
     }
@@ -59,7 +60,7 @@ app.delete('/api/notes/:id', (req, res) => {
         if (err) {
           throw err;
         } else {
-          console.log("Deleted Note Successfully")
+          res.json("Deleted Note Successfully")
         }
       });
     }
@@ -71,3 +72,8 @@ app.listen(PORT, () => {
 })
 
 // reload page / get notes again when saved
+// error from fetch requests in browser console
+
+// deploy to heroku
+// add screenshot and deployed link to readme
+// submit github repo and deployed link
