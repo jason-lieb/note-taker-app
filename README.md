@@ -11,7 +11,7 @@ A simple note app using Express to store notes to JSON and deployed to Heroku
 
 ## Table of Contents
 
-* [Screenshot](#screenshot)
+* [Screenshots](#screenshots)
 
 * [Installation](#installation)
 
@@ -25,9 +25,11 @@ A simple note app using Express to store notes to JSON and deployed to Heroku
 
 * [Questions](#questions)
 
-## Screenshot
+## Screenshots
 
-![Screenshot]()
+![Screenshot 1](./Screenshot-1.png)
+
+![Screenshot 2](./Screenshot-2.png)
 
 ## Installation
 
